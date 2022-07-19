@@ -1,0 +1,12 @@
+v1 character to number conversion.c
+
+v2 number to character conversion.c
+
+v3 binary conversion of a number.c
+
+v4 converting a character to a binary number.c
+
+v5 Total conversion.
+
+
+relesses
