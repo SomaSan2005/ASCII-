@@ -32,7 +32,7 @@ int main()
 {
     char c;
 
-    printf("Inserire il carattere d aconvertire in binario: ");
+    printf("Inserire il carattere da convertire in binario: ");
     c = getchar();
 
     for(int j = 7; j >= 0; --j)
