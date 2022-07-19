@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
@@ -19,6 +19,24 @@ int main()
 
         putc(' ', stdout);
     }
+
+    putc('\n', stdout);
+
+    return 0;
+}*/
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main()
+{
+    char c;
+
+    printf("Inserire il carattere d aconvertire in binario: ");
+    c = getchar();
+
+    for(int j = 7; j >= 0; --j)
+        putc(((c & (1 << j)) >> j) + '0', stdout);
 
     putc('\n', stdout);
 
