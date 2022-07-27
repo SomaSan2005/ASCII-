@@ -39,3 +39,5 @@ int main(void)
         putc(((c & (1 << j)) >> j) + '0', stdout);
     putc('\n', stdout);
     system("pause");
+    
+}
